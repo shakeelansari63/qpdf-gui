@@ -1,4 +1,4 @@
-from QPDF import QPDFGui
+from QPDFGui import QPDFGui
 
 app = QPDFGui()
 app.run()
