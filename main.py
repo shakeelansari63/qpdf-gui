@@ -1,5 +1,4 @@
-from app import App
+from QPDF import QPDFGui
 
-if __name__ == '__main__':
-    app = App()
-    app.run()
+app = QPDFGui()
+app.run()
